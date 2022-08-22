@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <title>Youtube Mobile</title>
+        <script src="main.js" defer></script>
         <script src="https://kit.fontawesome.com/eb3d63b368.js" crossorigin="anonymous"></script>
     </head>
 <body>
@@ -27,7 +28,8 @@
         <video controls src="video/video.mp4"></video>
     </section>
 
-    <!-- Video Info -->
+    <div class="infoAndUpNext">
+            <!-- Video Info -->
     <section class="info">
         <!--Metadata-->
         <div class="metadata">
@@ -37,7 +39,7 @@
                 <li>#Wotls</li>
             </ul>
             <div class="titleAndButton">
-                <span class="title">Clone Coding:Youtube Mobile Website 유튜브 모바일 웹사이트 따라만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과 함께하는 프론트엔드 실전 입문편</span>
+                <span class="title clamp">Clone Coding:Youtube Mobile Website 유튜브 모바일 웹사이트 따라만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과 함께하는 프론트엔드 실전 입문편</span>
                 <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
             </div>
             <span class="views">1M views 1 month ago</span>
@@ -62,11 +64,11 @@
             <button class="subscribe">subscribe</button>
         </div>
     </section>
-    <section class="UpNext">
+    <section class="upNext">
         <span class="title">Up next</span>
         <ul>
             <li class="item">
-                <img src="image/1.png" alt="">
+                <div class="imglist"><img src="image/1.png" alt=""></div>
                 <div class="info">
                     <span class="title">HTML 기초, React 할때 꼭 필요한 팁! 쉽다고 무시하면 안돼요 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 게시자: 드림코딩 24분"</span>
                     <span class="name">wotls by design</span>
@@ -75,7 +77,7 @@
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/1.png" alt="">
+                <div class="imglist"><img src="image/1.png" alt=""></div>
                 <div class="info">
                     <span class="title">클론코딩 포트폴리오 반응형 웹사이트 따라 만들기 | HTML, CSS, JavaScript 프론트엔드 강의(드림코딩 아카데미 오픈) 게시자: 드림코딩 2분 16초"</span>
                     <span class="name">wotls by design</span>
@@ -84,7 +86,7 @@
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/1.png" alt="">
+                <div class="imglist"><img src="image/1.png" alt=""></div>
                 <div class="info">
                     <span class="title">HTML 기초, React 할때 꼭 필요한 팁! 쉽다고 무시하면 안돼요 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 게시자: 드림코딩 24분"</span>
                     <span class="name">wotls by design</span>
@@ -93,7 +95,7 @@
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/1.png" alt="">
+                <div class="imglist"><img src="image/1.png" alt=""></div>
                 <div class="info">
                     <span class="title">클론코딩 포트폴리오 반응형 웹사이트 따라 만들기 | HTML, CSS, JavaScript 프론트엔드 강의(드림코딩 아카데미 오픈) 게시자: 드림코딩 2분 16초"</span>
                     <span class="name">wotls by design</span>
@@ -103,6 +105,7 @@
             </li>
         </ul>
     </section>
+    </div>
 
     </nav>
 </body>
